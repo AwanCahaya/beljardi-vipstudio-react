@@ -1,9 +1,15 @@
-import AutLayout from "./components/Layouts/AutLayout";
-import LoginPage from "./Pages/login";
+import { Link } from "react-router-dom";
+import Button from "./components/Elements/Button";
+import(Link);
 function App() {
   return (
     <div className="flex justify-center min-h-screen items-center">
-      <LoginPage />
+      <Link to="/products" className="px-3">
+        <Button> Product</Button>
+      </Link>
+      <Link to="/login">
+        <Button> Login</Button>
+      </Link>
     </div>
   );
 }
