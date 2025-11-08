@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Button from "./components/Elements/Button";
-import(Link);
 function App() {
   return (
     <div className="flex justify-center min-h-screen items-center">
