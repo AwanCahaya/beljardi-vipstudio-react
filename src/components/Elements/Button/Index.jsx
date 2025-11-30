@@ -5,7 +5,7 @@ const Button = (props) => {
   const {
     varian = "bg-blue-400",
     children,
-    onClick = () => {},
+    onClick,
     type,
     clasname = `h-10 px-6 rounded-md font-semibold ${varian} text-white`,
   } = props;
